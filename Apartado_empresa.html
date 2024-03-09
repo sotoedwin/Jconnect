@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jconnect</title>
+</head>
+<body>
+<nav>
+    <a href="Pagina_Principal.html"><img src="imgs/logo.png" alt="Logo" style="height: 50px;"></a>
+    <a href="Pagina_Principal.html">Inicio</a>
+</nav>
+<h2>Publicar Oferta</h2>
+<form action="#" method="post">
+    <label for="nombre_vacante">Nombre de la Vacante:</label><br>
+    <input type="text" id="nombre_vacante" name="nombre_vacante" required><br>
+
+    <label for="descripcion">Descripción:</label><br>
+    <textarea id="descripcion" name="descripcion" rows="4" cols="50" required></textarea><br>
+
+    <label for="requisitos">Requisitos:</label><br>
+    <textarea id="requisitos" name="requisitos" rows="4" cols="50" required></textarea><br>
+
+    <label for="salario">Salario:</label><br>
+    <input type="text" id="salario" name="salario" required><br>
+
+    <label for="fecha_limite">Fecha Límite:</label><br>
+    <input type="date" id="fecha_limite" name="fecha_limite" required><br><br>
+
+    <input type="submit" value="Publicar">
+</form>
+
+<h2>Sus Publicaciones</h2>
+<div id="publicaciones">
+    <div class="publicacion">
+        <h3>Nombre de la Vacante</h3>
+        <p>Descripción: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Requisitos: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Salario: $XXXXX</p>
+        <p>Fecha Límite: YYYY-MM-DD</p>
+    </div>
+</div>
+<div class="sidebar">
+    <h2>Buscar Candidatos</h2>
+    <form action="#" method="get">
+        <input type="text" name="busqueda" placeholder="Buscar candidatos...">
+        <input type="submit" value="Buscar">
+    </form>
+    <div class="perfil">
+        <h3>Nombre del Candidato 1</h3>
+        <p>Profesión: Profesión 1</p>
+        <p>Nacionalidad: Nacionalidad 1</p>
+        <p>Correo Electrónico: correo@example.com</p>
+    </div>
+    <div class="perfil">
+        <h3>Nombre del Candidato 2</h3>
+        <p>Profesión: Profesión 2</p>
+        <p>Nacionalidad: Nacionalidad 2</p>
+        <p>Correo Electrónico: correo2@example.com</p>
+    </div>
+</body>
+<footer>
+    <p>Derechos de autor &copy; Jconnect</p>
+</footer>
+</html>
